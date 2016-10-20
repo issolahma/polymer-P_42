@@ -7,7 +7,12 @@ https://www.youtube.com/watch?v=HgJ0XCyBwzY
 yeoman
 d3 framework
 
+<<<<<<< HEAD
 
 
 https://www.polymer-project.org/1.0/toolbox/app-layout
 https://elements.polymer-project.org/elements/app-layout?active=app-drawer
+=======
+https://www.polymer-project.org/1.0/toolbox/app-layout
+https://elements.polymer-project.org/elements/app-layout?active=app-drawer
+>>>>>>> 0e68150ea182096f7872f63e2ec10af95dcbcbc6
