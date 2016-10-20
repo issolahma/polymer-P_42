@@ -1,0 +1,10 @@
+nodejs
+npm install -g polymer-cli
+npm install -g generator-polymer-init-custom-build
+bower install --save PolymerElements/iron-elements
+
+https://www.youtube.com/watch?v=HgJ0XCyBwzY
+yeoman
+d3 framework
+
+
