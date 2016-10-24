@@ -43,12 +43,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       
 		<!-- Moi -->
 		
-		app-drawer {
+/*		app-drawer {
     --app-drawer-content-container: {
       box-shadow: 1px 0 2px 1px rgba(0,0,0,0.18);
     }
     --app-drawer-scrim-background: rgba(179, 157, 219, 0.5);
-  }
+  }*/
 	  
 		<!-- Moi -->
 		

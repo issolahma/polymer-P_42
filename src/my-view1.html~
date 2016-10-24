@@ -28,6 +28,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="card">
     	<div class="circle"><iron-icon class="big" icon="communication:stay-primary-portrait"></iron-icon></div>
       <h1>Comparaison natel</h1>
+      <p>Ut labores minimum atomorum pro. Laudem tibique ut has.
+      <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
       
 		<paper-dropdown-menu label="Marques">
 		  <paper-listbox class="dropdown-content" selected="1">
@@ -45,9 +47,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 		    <paper-item>IOS</paper-item>
 		  </paper-listbox>
 		</paper-dropdown-menu>
-
-      <p>Ut labores minimum atomorum pro. Laudem tibique ut has.
-      <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
+		
+		<paper-dropdown-menu label="Prix">
+		  <paper-listbox class="dropdown-content" selected="1">
+		    <paper-item>Android</paper-item>
+		    <paper-item>Windows</paper-item>
+		    <paper-item>IOS</paper-item>
+		  </paper-listbox>
+		</paper-dropdown-menu>
     </div>
   </template>
 

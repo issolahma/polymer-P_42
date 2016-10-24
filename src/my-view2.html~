@@ -10,7 +10,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="shared-styles.html">
-<link rel="import" href="../bower_components/iron-icons/social-icons.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-input/paper-textarea.html">
+<link rel="import" href="../bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="../bower_components/iron-icons/image-icons.html">
 
 <dom-module id="my-view2">
   <template>
@@ -20,13 +23,38 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         padding: 10px;
       }
+      
+      #text {
+		width:50%;
+		text-align:center;      
+      }
+      
+      paper-button {
+      text-align:center;
+		display:block;
+		width: 50%;
+		background-color: #e0e0eb;
+		font-weight: bold;
+      }
     </style>
 
     <div class="card">
       <div class="circle"><iron-icon class="big" icon="communication:email"></iron-icon></div>
-      <h1>View Two</h1>
-      <p>Ea duis bonorum nec, falli paulo aliquid ei eum.</p>
-      <p>Id nam odio natum malorum, tibique copiosae expetenda mel ea.Detracto suavitate repudiandae no eum. Id adhuc minim soluta nam.Id nam odio natum malorum, tibique copiosae expetenda mel ea.</p>
+      <h1>Contact</h1>
+      <p>Un commentaire, une question?</p>
+      <p>Laissez-nous un mot, nous vous répondrons dans les meilleures délais.</p>
+      <paper-input id="text" label="votre nom">
+			<iron-icon icon="image:tag-faces" prefix></iron-icon>      
+      </paper-input>
+      
+		<paper-input id="text" label="votre email" >
+  			<iron-icon icon="communication:email" prefix></iron-icon>
+		</paper-input>      
+      
+      <paper-textarea id="text" label="votre message" maxlength="500">      
+      </paper-textarea>
+      
+      <paper-button raised>Envoyer</paper-button>
     </div>
   </template>
 
